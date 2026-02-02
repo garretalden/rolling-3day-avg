@@ -3,6 +3,8 @@
 This repository demonstrates how to compute a trailing 3-day rolling average
 using SQL window functions.
 
+Rolling average on Jan 31: 682.15
+
 ### Notes
 - Uses ORDER BY date inside the window function
 - Does not require the underlying table to be pre-sorted
