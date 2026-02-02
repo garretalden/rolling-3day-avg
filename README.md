@@ -1,2 +1,12 @@
-# rolling-3day-avg
-SQL code to compute rolling three-day averages for dataset of transaction timestamps and amounts.
+## Rolling 3-Day Average in SQL
+
+This repository demonstrates how to compute a trailing 3-day rolling average
+using SQL window functions.
+
+### Notes
+- Uses ORDER BY date inside the window function
+- Does not require the underlying table to be pre-sorted
+- Includes handling for sparse dates vs row-based windows
+
+### File
+- `rolling_3day_average.sql`
