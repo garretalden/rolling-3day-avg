@@ -11,4 +11,4 @@ Rolling average on Jan 31: 682.15
 - Includes handling for sparse dates vs row-based windows
 
 ### File
-- `rolling_3day_average.sql`
+- `rolling_3day_avg.sql`
